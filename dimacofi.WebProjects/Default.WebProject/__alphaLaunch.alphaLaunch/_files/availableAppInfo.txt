@@ -1,0 +1,29 @@
+{
+	"version": "1.0",
+	"description": "Available App Info",
+	"hostname": "Test Server",
+	"message": "Sample message",
+	"messageVersion": 1,
+	"appList": [
+		{
+			"id": "dimacofi",
+			"name": "Dimacofi",
+			"description": "Prototipo Dimacofi",
+			"url": "login_9ec6222f6b4f486aa61452c429f001b0",
+			"version": "1.0.0",
+			"installMessage": "",
+			"minSize": "",
+			"maxSize": "",
+			"ajaxURL": "http://nubisonlab.cl:1580/dimacofi/login_9ec6222f6b4f486aa61452c429f001b0/",
+			"type": "manifest",
+			"template": "<table style=\"background-color:#fff; padding-top:0px;padding-bottom:12px;width:100%;padding-top:12px\">  <tr>   <td style=\"width:64px;\">             <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QgCFg0vjWF9GwAAA41JREFUeNrtm1uITlEUx3+2S5QxIpdsMdIe91JuhZCHiZI88EhRkvstPIgHpUTehER5meRBuUyMJJci1yeM2GLETrmP+232ePj2w5cMZ3/nG/aZb6+n6fQ/a53zm7X2ZZ39QbRo0X5jbbSQTSX8/g3Kmq4AIuZCztrl/V0BNJTIe48ALjYHokFZ87YUKGgh3/96LZZGBNH8GJHFFJ8NLEsgrVXWbGu1IIC+wOQEuvpYGnGMiCAiiAgigoggIogIIoIokb2GFrICmAgMAnoBHYAPwCvgNnBZWWNaJQgtZDmwEFgADEmgvwTsBg4pa5oyXxpaSKGFXAo8BnYkgeBsAlANXNNCDso0CC1kN6AW2AWUF+hmNHBDCzk1k6WhhewLnAUqi+CuM1CjhazKVEZoIctcJlQW0W0n4AjQO0ulcQAY1gJ+ewJrMgHCtdLmtGCI9sGD0EJ2ALandPOhNaws5wEDPO95AqwDhgPtlTVl7r8+zF1/ksUF1SJP/X5gpbLmU/5FZc0PoA6o00LuAnYCSzIBQgtZ6eb8pLZXWbP4byJlzRdgqRayEViehdKY4aGtA1Z5+l8L3MkCiCke2k3Kmq8+zpU134HNWQAxKqHuOXC0wBjH3P1hgnA7yz4J5SeVNbaQOMqaRuBMyBnRz0N7IWWs8yGD6OWhvZsy1r2QQXT20D5KGethyCA6eWg/poz1LmQQnz0GvFQglDXvQwbR6DnDpJmh2oUM4oWHtkfKWOUhg3jmoR2SMlZFyCCeAt8SasekjDUyWBBuxZd0fTAtZbiqkDMC4GrSjNBCFtTPdE3hmaGD8Fn6ri4wxgqgY+ggaj2m0flayHGe2TAY2Bj8NlxZ8wY45fEMh91HoCQQ+gM1nivY/5YRAPs8tP2B61rIaX8AILSQc4GbwMBiP2xLNm9ryLXhhibU9wZOaSFvAMeB+8BXoLubJmd6bvHDAKGsadJCbgBOeN46Gr/Gb/ClgbKmhtw3yuDtX3z7XFiEvkNzdjQzINwMUgW8LLLrK8DWLGUEypoHwCRAF8nlLTd4/sgUCAfjLjAWOJjSVTUwXlnzopjP908Pk7kfz83XQu4B1gOzgLYey/Ytyppzede+kTuP9Td7GRSIPCDXgNnuXNV0tx0fSu7wRxfgC/DGldIV4LSy5tFv/NQVqyfxX89ZKmteu1SvLoXpMxOWnxHlWshSee+yP4GoL+WMiKXh7Ce1QeU3DOASUwAAAABJRU5ErkJggg==\"/>   </td>   <td>    <p style=\"font-size: 20px; padding-left:20px; color:#222; font-family:arial; margin-bottom:0px;\">{name}</p>    <p style=\"font-size: 14px; padding-left:20px; color:#222; font-family:arial; margin-top:0px;\">{desc}</p>   </td>  </tr> </table> ",
+			"options": {
+				"iOSStatusBar": {
+					"statusBarOverlaysWebView": 1,
+					"statusBarTextWhite": 0,
+					"statusBarBackgroundHexColor": "#FFF"
+				}
+			}
+		}	
+]
+}

@@ -1,0 +1,11 @@
+A5SaveTimeStamp:20170802181005709
+css:iOS7
+subComponent:admin.a5wcmp
+subComponent:tec.a5wcmp
+copyfile:{C:\Users\Desarrollador\Documents\Prototipo Dimacofi\dimacofi.WebProjects\Default.WebProject\logo.png}
+subComponent:admin
+subComponent:tec
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_0151ce2b413445f7a2d29e1e0a143a30_admin', uxname: 'admin', alias: '{alias}_ADMIN_122033RFWQ'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_554488b860634a14bfec98ba57f685bd_tec', uxname: 'tec', alias: '{alias}_TEC_122029BQVN'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_0151ce2b413445f7a2d29e1e0a143a30_admin', uxname: 'admin', alias: '{UXPRERENDEREDALIAS}_ADMIN_122033RFWQ'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_554488b860634a14bfec98ba57f685bd_tec', uxname: 'tec', alias: '{UXPRERENDEREDALIAS}_TEC_122029BQVN'}
