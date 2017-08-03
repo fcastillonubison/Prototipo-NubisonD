@@ -77,17 +77,24 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -m
 
 <link rel="stylesheet" type="text/css" href="css/iOS7/style.css">
 
+<link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/fonts/fontawesome-webfont.eot">
+<link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/fonts/fontawesome-webfont.svg">
+<link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/fonts/fontawesome-webfont.ttf">
+<link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/fonts/fontawesome-webfont.woff">
+<link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/fonts/fontawesome-webfont.woff2">
+
 <style type="text/css">
 .responsive-img{max-width:100%;height:auto;}
 .color0{color:#19181B;}
 .fondo0{background-color:#19181B;}
 .color1{color:#DB021B;}
 .fondo1{background-color:#DB021B;}
-.iOS7Button, .iOS7ButtonConfirm, .iOS7ButtonDeny, .iOS7ButtonDD {
-    color: #fff;
-    background: #19181B;
-    border: 0px solid #19181B;
-}
+.iOS7Button, .iOS7ButtonConfirm, .iOS7ButtonDeny, .iOS7ButtonDD { color: #fff; background: #19181B; border: 0px solid #19181B; }
+.OT_preventivo{background-color:#1BDB02;color:#222;}
+.OT_correctivo{background-color:#021BDB;color:#fff;}
+.OT_instalacion{background-color:#DB021B;color:#fff;}
+.width50{width:50%}
 </style>
 <style>
 </style>
@@ -236,7 +243,7 @@ if(typeof DLG1_DlgObj == 'object') {
 }
 ;window['DLG1_PanelObj'] = new A5.PanelNavigator([
 {
-	name: 'PANELCARD_1',
+	name: 'MAIN',
 	src: new A5.PanelCard({
 	theme: 'iOS7',
 	body: {
@@ -280,7 +287,7 @@ if(typeof DLG1_DlgObj == 'object') {
 	},
 	overlay: {
 	},
-	onSize: function() {if(typeof DLG1_DlgObj != 'undefined' && typeof DLG1_DlgObj._panelCardResize != 'undefined') { DLG1_DlgObj._panelCardResize('PANELCARD_1'); };}
+	onSize: function() {if(typeof DLG1_DlgObj != 'undefined' && typeof DLG1_DlgObj._panelCardResize != 'undefined') { DLG1_DlgObj._panelCardResize('MAIN'); };}
 })
 },
 {
@@ -389,12 +396,12 @@ var ele = window['DLG1_PanelObj'].create('DLG1.R1');
 			if(window[wf_alias + '_PanelObj']) window[wf_alias + '_PanelObj'].bindSize('window');
 		}
 DLG1_PanelObj._panelPath = {
-	PANELCARD_1: 'PANELCARD_1',
+	MAIN: 'MAIN',
 	PNL_ADMIN: 'PNL_ADMIN',
 	PNL_TEC: 'PNL_TEC'
 }
 DLG1_PanelObj._displayNames = {
-PANELCARD_1 : 'PANELCARD_1',PNL_ADMIN : 'PNL_ADMIN',PNL_TEC : 'PNL_TEC',PANELNAVIGATOR_1 : 'PANELNAVIGATOR_1'
+MAIN : 'MAIN',PNL_ADMIN : 'PNL_ADMIN',PNL_TEC : 'PNL_TEC',PANELNAVIGATOR_1 : 'PANELNAVIGATOR_1'
 };
 if(typeof DLG1_DlgObj == 'object') DLG1_DlgObj._destroy();
 var DLG1_DlgObj = new A5.DialogComponentHelper('DLG1',{
@@ -453,6 +460,7 @@ DLG1_DlgObj._onOrientationChange =  function(e) { ;
 DLG1_DlgObj._findActiveLayoutRule();
 ;  };
 A5.__componentObj = DLG1_DlgObj;
+DLG1_DlgObj.loadCSSFile('css/CSSIcons/font-awesome/css/font-awesome.min.css');
 DLG1_DlgObj._tabObjects = [];
 A5.loadJavascript(';\n\n\n\n;');
 DLG1_DlgObj._functions.runAction_84c35c82_39a2_43e9_8738_3f463ba99a82 = function() {
@@ -474,7 +482,7 @@ DLG1_DlgObj._functions.runAction_84c35c82_39a2_43e9_8738_3f463ba99a82 = function
 	go.placeHolderValues = '';
 	go.parameterBucket = $gvs('DLG1.PARAMETERBUCKET');
 	go.argumentValueBucket = $gvs('DLG1.ARGUMENTVALUES');
-	go.a5_default_path = 'C_colon_|Users|Desarrollador|Documents|Prototipo Dimacofi|dimacofi.WebProjects|Default.WebProject';
+	go.a5_default_path = 'C_colon_|A5Webroot|livepreview';
 	go.onLoadCompleteJavascript = '';
 	if(typeof DLG1_DlgObj.gridId != 'undefined') go._thisGridAlias = DLG1_DlgObj.gridId;
 	if(typeof DLG1_DlgObj.dialogId != 'undefined') go._thisGridAlias = DLG1_DlgObj.dialogId;
@@ -514,7 +522,7 @@ DLG1_DlgObj._functions.runAction_fb20042d_b7bd_44d6_85dd_173755b2dc82 = function
 	go.placeHolderValues = '';
 	go.parameterBucket = $gvs('DLG1.PARAMETERBUCKET');
 	go.argumentValueBucket = $gvs('DLG1.ARGUMENTVALUES');
-	go.a5_default_path = 'C_colon_|Users|Desarrollador|Documents|Prototipo Dimacofi|dimacofi.WebProjects|Default.WebProject';
+	go.a5_default_path = 'C_colon_|A5Webroot|livepreview';
 	go.onLoadCompleteJavascript = '';
 	if(typeof DLG1_DlgObj.gridId != 'undefined') go._thisGridAlias = DLG1_DlgObj.gridId;
 	if(typeof DLG1_DlgObj.dialogId != 'undefined') go._thisGridAlias = DLG1_DlgObj.dialogId;
@@ -538,7 +546,7 @@ if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_554488b860
 DLG1_DlgObj.lookups = {
 };
 DLG1_DlgObj.setStateInfo({
-	"__dialogGuid": "4a47c6e3-a1fb-4ac1-b48a-88d73825219b",
+	"__dialogGuid": "928ff238-8047-45c5-bbd6-fe262ba91542",
 	"argumentsBoundToCotrols": "",
 	"__sgr": "",
 	"__dtfmt": "MM/dd/yyyy",
@@ -552,27 +560,31 @@ A5.msgBox.buttonWidth = '1in';
 DLG1_DlgObj._defaultWindowTitleDirection = 'ltr';
 DLG1_DlgObj._controlContainers = {}
 DLG1_DlgObj._panelCardControls = {
-USER:'PANELCARD_1',
-PASS:'PANELCARD_1'
+USER:'MAIN',
+PASS:'MAIN'
 }
 DLG1_DlgObj._controlsOnPanel = {
-	'PANELCARD_1' : {controls: ['USER','PASS']}
+	'MAIN' : {controls: ['USER','PASS']}
 }
 DLG1_DlgObj._buttons = {};
 DLG1_DlgObj._buttons['BUTTON_1'] = new A5.Button({
-	layout: 'text',
+	layout: 'icon text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
 	className: 'iOS7Button',
 	html: 'Administrador',
+	icon: 'cssIcon=fa fa-user-plus fa-2x',
+	disabledIcon: 'cssIcon=fa fa-user-plus fa-2x',
 	onClick: function() { 
 },
 	theme: 'iOS7'
 });
 DLG1_DlgObj._buttons['BUTTON_2'] = new A5.Button({
-	layout: 'text',
+	layout: 'icon text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
 	className: 'iOS7Button',
 	html: 'Tecnico',
+	icon: 'cssIcon=fa fa-user fa-2x',
+	disabledIcon: 'cssIcon=fa fa-user fa-2x',
 	onClick: function() { 
 },
 	theme: 'iOS7'

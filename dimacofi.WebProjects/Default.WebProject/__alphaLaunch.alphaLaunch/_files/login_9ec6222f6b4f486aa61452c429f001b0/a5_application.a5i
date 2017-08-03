@@ -48,7 +48,7 @@ DIM reportEvents as P
 DIM reportEvents.afterPrint as C
 DIM reportEvents.library as C
 DIM reportEvents.beforePrint as C
-DIM projectStyle as C = "GrGray"
+DIM projectStyle as C = "iOS7"
 DIM useDirectPdf as L
 DIM useMicrosoftXPSPrinterForPDF as L
 DIM useBSONforSQLreporting as L = .T.
@@ -134,9 +134,10 @@ DIM css.webkit.AllowSelectionOfText as L
 DIM stripe as P
 DIM stripe.keysJSON as C
 DIM siteDefaults as P
-DIM siteDefaults.guessedDefaultPage as L
+DIM siteDefaults.guessedDefaultPage as L = .T.
 DIM siteDefaults.defaultpage as C = "index.a5w"
 DIM siteDefaults.maxUploadSizeMB as N = 100
+DIM siteDefaults.sessionTimeout as N = 15
 %txt%
 
 dim gv as p 
@@ -147,10 +148,10 @@ dim gv.__buildNumberExe__ as n
 dim gv.__buildNumberAddins__ as n 
 dim gv.__guid as c 
 dim gv.__A5PublishVersion as n 
-gv.__A5PublishTimestamp = 2017151502181528204
+gv.__A5PublishTimestamp = 2017353503173527075
 gv.__buildNumberExe__ = 4346
 gv.__buildNumberAddins__ = 4889
-gv.__guid = "f40cb3db-f4f9-4256-bc7c-ebcb505a7c3e"
+gv.__guid = "5281aa7c-c261-4984-90f0-adc37a2ab0a1"
 gv.__control = <<%txtcontrol%
 hV7+2zUTjP0=
 %txtcontrol%

@@ -1,7 +1,8 @@
 CACHE MANIFEST
 
-#version2017-02-08 181527128
+#version2017-03-08 173525673
 a5images/boxsize8x8fillUp5FDiagonalWhite3A232552C2392C239.png
+a5images/null1x1.png
 a5images/windowbuttonclose.png
 css/A5System/default/tree/b.png
 css/A5System/default/tree/bc.png
@@ -70,6 +71,12 @@ css/A5System/Vista/tree/boh.png
 css/A5System/Vista/tree/n.png
 css/A5System/Vista/theme.css
 css/A5System/Vista/theme.js
+css/CSSIcons/font-awesome/css/font-awesome.min.css
+css/CSSIcons/font-awesome/fonts/fontawesome-webfont.eot
+css/CSSIcons/font-awesome/fonts/fontawesome-webfont.svg
+css/CSSIcons/font-awesome/fonts/fontawesome-webfont.ttf
+css/CSSIcons/font-awesome/fonts/fontawesome-webfont.woff
+css/CSSIcons/font-awesome/fonts/fontawesome-webfont.woff2
 css/iOS7/A5_iOS7Icons.eot
 css/iOS7/A5_iOS7Icons.ttf
 css/iOS7/A5_iOS7Icons.woff
