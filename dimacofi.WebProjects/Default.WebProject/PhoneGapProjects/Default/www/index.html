@@ -77,8 +77,8 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -m
 
 </style>
 
-<link rel="stylesheet" type="text/css" href="css/iOS7/style.css?0">
-<link rel="stylesheet" type="text/css" href="css/_sharedStyles/style.css?0">
+<link rel="stylesheet" type="text/css" href="css/iOS7/style.css?3">
+<link rel="stylesheet" type="text/css" href="css/_sharedStyles/style.css?3">
 
 <link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/fonts/fontawesome-webfont.eot">
@@ -98,6 +98,7 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -m
 .OT_correctivo{background-color:#021BDB;color:#fff;}
 .OT_instalacion{background-color:#DB021B;color:#fff;}
 .width50{width:50%}
+.iOS7Button, .iOS7ButtonConfirm, .iOS7ButtonDeny, .iOS7ButtonDD { font-size: 13px; }
 </style>
 <style>
 </style>
@@ -111,7 +112,7 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -m
 <script>
 	if(typeof jQuery != 'undefined') jQuery.noConflict();
 </script>
-<script type="text/javascript" src="__precomputedUXComponents.js?151233968"></script>
+<script type="text/javascript" src="__precomputedUXComponents.js?8433145"></script>
 <script type="text/javascript" src="_phoneGapSettings.js"></script>
 
 <title></title>
@@ -349,7 +350,41 @@ if(typeof DLG1_DlgObj == 'object') {
 	type: 'programmatic',
 	flow: 'ltr',
 	loopNavigate: false,
-	onPanelActivate: function() {DLG1_DlgObj.refreshClientSideComputations();},
+	onPanelActivate: function() {var panelName = this.state.activePanel;
+if(panelName == 'PNL_ADMIN') {
+	var runJS = true;
+	if(typeof this.state._render != 'undefined') {
+		var rs = this.state._render[panelName];
+		if(typeof rs !=  'undefined') {
+			if(rs == true) {
+				runJS = false;
+			}
+		}
+	}	
+	if(runJS) {
+		DLG1_DlgObj._functions.runAction_84c35c82_39a2_43e9_8738_3f463ba99a82();;
+		if(typeof this.state._render == 'undefined') this.state._render = {};
+		this.state._render[panelName] = true;
+	}
+}	
+var panelName = this.state.activePanel;
+if(panelName == 'PNL_TEC') {
+	var runJS = true;
+	if(typeof this.state._render != 'undefined') {
+		var rs = this.state._render[panelName];
+		if(typeof rs !=  'undefined') {
+			if(rs == true) {
+				runJS = false;
+			}
+		}
+	}	
+	if(runJS) {
+		DLG1_DlgObj._functions.runAction_fb20042d_b7bd_44d6_85dd_173755b2dc82();;
+		if(typeof this.state._render == 'undefined') this.state._render = {};
+		this.state._render[panelName] = true;
+	}
+}
+DLG1_DlgObj.refreshClientSideComputations();},
 	onPanelActivateComplete: function() {if(this.state.activePanel == 'PNL_ADMIN') { 
 	var pChild = DLG1_DlgObj.getChildObject('<DEFAULTALIAS>','UX');
 	if(pChild) pChild._executeEvent('onPanelActivate');
@@ -480,7 +515,7 @@ DLG1_DlgObj._functions.runAction_84c35c82_39a2_43e9_8738_3f463ba99a82 = function
 		var go = new Object();
 		go.dialog2Name = 'admin';
 	go.type = 'dialog2';
-	go.alias = 'DLG1_ADMIN_122033RFWQ';
+	go.alias = 'DLG1_ADMIN_155030IAIH';
 	go.workingMessage = '<img src="css/A5System/Images/wait.gif" /> Working...';
 	go.flagTimer = 'F';
 	go.flagQueryEcho = 'F';
@@ -506,9 +541,9 @@ go.dialog2Div = panelCardId;
 if( !DLG1_DlgObj._getOnlineStatus()) runMethod = 'precomputed';
 if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
 if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
-if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_0151ce2b413445f7a2d29e1e0a143a30_admin'] == 'function') { 
-	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_0151ce2b413445f7a2d29e1e0a143a30_admin', uxname: 'admin', alias: 'DLG1_ADMIN_122033RFWQ'}
-	var jsToRun = PRECOMPUTEDUX_0151ce2b413445f7a2d29e1e0a143a30_admin(go);
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_d5393668c0c641998673540a6fdf4ea0_admin'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_d5393668c0c641998673540a6fdf4ea0_admin', uxname: 'admin', alias: 'DLG1_ADMIN_155030IAIH'}
+	var jsToRun = PRECOMPUTEDUX_d5393668c0c641998673540a6fdf4ea0_admin(go);
 	eval(jsToRun);
 	if(typeof go.onLoadCompleteJavascript != 'undefined') eval(go.onLoadCompleteJavascript);
 } else {
@@ -520,7 +555,7 @@ DLG1_DlgObj._functions.runAction_fb20042d_b7bd_44d6_85dd_173755b2dc82 = function
 		var go = new Object();
 		go.dialog2Name = 'tec';
 	go.type = 'dialog2';
-	go.alias = 'DLG1_TEC_122029BQVN';
+	go.alias = 'DLG1_TEC_155034NPVS';
 	go.workingMessage = '<img src="css/A5System/Images/wait.gif" /> Working...';
 	go.flagTimer = 'F';
 	go.flagQueryEcho = 'F';
@@ -546,9 +581,9 @@ go.dialog2Div = panelCardId;
 if( !DLG1_DlgObj._getOnlineStatus()) runMethod = 'precomputed';
 if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
 if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
-if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_554488b860634a14bfec98ba57f685bd_tec'] == 'function') { 
-	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_554488b860634a14bfec98ba57f685bd_tec', uxname: 'tec', alias: 'DLG1_TEC_122029BQVN'}
-	var jsToRun = PRECOMPUTEDUX_554488b860634a14bfec98ba57f685bd_tec(go);
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_47489a24f59e40b7a442325bafe7870b_tec'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_47489a24f59e40b7a442325bafe7870b_tec', uxname: 'tec', alias: 'DLG1_TEC_155034NPVS'}
+	var jsToRun = PRECOMPUTEDUX_47489a24f59e40b7a442325bafe7870b_tec(go);
 	eval(jsToRun);
 	if(typeof go.onLoadCompleteJavascript != 'undefined') eval(go.onLoadCompleteJavascript);
 } else {
@@ -559,7 +594,7 @@ if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_554488b860
 DLG1_DlgObj.lookups = {
 };
 DLG1_DlgObj.setStateInfo({
-	"__dialogGuid": "ca2ae976-bf8e-4c12-ab8e-0a241bc5bfee",
+	"__dialogGuid": "8cfb33aa-529c-4b9f-bf1c-0977349c18a4",
 	"argumentsBoundToCotrols": "",
 	"__sgr": "",
 	"__dtfmt": "MM/dd/yyyy",
@@ -757,8 +792,6 @@ DLG1_DlgObj.initialized = true;
 
 
 
-DLG1_DlgObj._functions.runAction_84c35c82_39a2_43e9_8738_3f463ba99a82();
-DLG1_DlgObj._functions.runAction_fb20042d_b7bd_44d6_85dd_173755b2dc82();
 
 
 
