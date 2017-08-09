@@ -864,7 +864,7 @@ A5.themes.add('iOS7',{
 	},
 	accordion: {
 		base: {
-			className: '',
+			className: 'iOS7Accordion',
 			titleClassName: 'iOS7AccordionButton',
 			titleSelectedClassName: 'iOS7AccordionButtonSelected',
 			titleDisabledClassName: 'iOS7AccordionButtonDisabled',
@@ -879,7 +879,7 @@ A5.themes.add('iOS7',{
 			tabDisabledClassName: 'iOS7TabTButtonDisabled',
 			paneClassName: 'iOS7TabTPane',
 			location: 'top',
-			tabsClassName: '',
+			tabsClassName: 'iOS7TabTBand',
 			panesClassName: ''
 		},
 		bottom: {
@@ -889,7 +889,7 @@ A5.themes.add('iOS7',{
 			tabDisabledClassName: 'iOS7TabBButtonDisabled',
 			paneClassName: 'iOS7TabBPane',
 			location: 'top',
-			tabsClassName: '',
+			tabsClassName: 'iOS7TabBand',
 			panesClassName: ''
 		},
 		right: {
@@ -899,7 +899,7 @@ A5.themes.add('iOS7',{
 			tabDisabledClassName: 'iOS7TabRButtonDisabled',
 			paneClassName: 'iOS7TabRPane',
 			location: 'top',
-			tabsClassName: '',
+			tabsClassName: 'iOS7TabRBand',
 			panesClassName: ''
 		},
 		left: {
@@ -909,7 +909,7 @@ A5.themes.add('iOS7',{
 			tabDisabledClassName: 'iOS7TabLButtonDisabled',
 			paneClassName: 'iOS7TabLPane',
 			location: 'top',
-			tabsClassName: '',
+			tabsClassName: 'iOS7TabLBand',
 			panesClassName: ''
 		}
 	},

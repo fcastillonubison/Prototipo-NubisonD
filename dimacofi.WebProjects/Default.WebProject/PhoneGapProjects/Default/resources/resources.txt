@@ -7,7 +7,7 @@
 	"_initialUxComponent": "login",
 	"_componentLastUpdated": "07/08/2017 04:04:08 64 pm",
 	"_ajaxUrl": "http://nubisonlab.cl:1580/dimacofi",
-	"_additionalFiles": "img\\isotipo.png\nimg\\logo.png\nimg\\noPic.jpg",
+	"_additionalFiles": "img\\isotipo.png\nimg\\logo.png\nimg\\noPic.jpg\nnoPic.jpg",
 	"_userName": "Tva8QUYnrNfjBI9YXra2+XWnzlG7uifS",
 	"_pw": "9sPelWvZD4Epw+X0QKVS0w==",
 	"_token": "",

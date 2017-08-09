@@ -13,5 +13,16 @@
 		"hostName": "Test Server",
 		"message": "Sample message",
 		"messageVersion": 1
+	},
+	"publishing": {
+		"lastProfile": "NUBISON SERVER",
+		"lastURL": "http://nubisonlab.cl:1580/dimacofi",
+		"serverName": "",
+		"serverDescription": "",
+		"publishToS3": false,
+		"s3url": "",
+		"s3folder": "",
+		"s3connectionstring": "",
+		"publish2ToS3": false
 	}
 }
