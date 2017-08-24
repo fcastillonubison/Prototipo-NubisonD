@@ -1,4 +1,4 @@
-A5SaveTimeStamp:20170807160408563
+A5SaveTimeStamp:20170816093810347
 css:iOS7
 cssIcon:font-awesome
 subComponent:admin.a5wcmp
@@ -7,4 +7,4 @@ copyfile:{C:\Users\Desarrollador\Documents\Prototipo Dimacofi\dimacofi.WebProjec
 subComponent:admin
 subComponent:tec
 precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_d5393668c0c641998673540a6fdf4ea0_admin', uxname: 'admin', alias: '{alias}_ADMIN_155030IAIH'}
-precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_47489a24f59e40b7a442325bafe7870b_tec', uxname: 'tec', alias: '{alias}_TEC_155034NPVS'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_a75dd6de59c040f5bd482ed2f07f70c2_tec', uxname: 'tec', alias: '{alias}_TEC_93749IEFF'}

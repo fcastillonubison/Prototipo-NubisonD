@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="ISO-8859-1">
 <meta name="generator" content="Alpha Anywhere HTML Editor Version 12 Build 4346-4889">
 <!-- must use in order to make XP Themes render -->
 <meta HTTP-EQUIV="MSThemeCompatible" content="Yes" />
@@ -10,7 +11,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
 <title>Dimacofi Prototipo</title>
-
+<link rel="shortcut icon" type="image/png" href="img/isotipo.png"/>
+<link rel="shortcut icon" type="image/x-icon" href="img/isotipo.ico"/>
 <%a5
 Delete tmpl_LOGIN
 DIM tmpl_LOGIN as P
