@@ -77,8 +77,8 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -m
 
 </style>
 
-<link rel="stylesheet" type="text/css" href="css/iOS7/style.css?4">
-<link rel="stylesheet" type="text/css" href="css/_sharedStyles/style.css?4">
+<link rel="stylesheet" type="text/css" href="css/iOS7/style.css?18">
+<link rel="stylesheet" type="text/css" href="css/_sharedStyles/style.css?18">
 
 <link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/fonts/fontawesome-webfont.eot">
@@ -94,9 +94,15 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -m
 .color1{color:#DB021B;}
 .fondo1{background-color:#DB021B;}
 .iOS7Button, .iOS7ButtonConfirm, .iOS7ButtonDeny, .iOS7ButtonDD { color: #fff; background: #19181B; border: 0px solid #19181B; }
-.OT_preventivo{background-color:#1BDB02;color:#222;}
-.OT_correctivo{background-color:#021BDB;color:#fff;}
-.OT_instalacion{background-color:#DB021B;color:#fff;}
+.OT_preventivo{background-color:#021BDB;color:#fff;}
+.OT_correctivo{background-color:#DB021B ;color:#fff;}
+.OT_instalacion{background-color:#1BDB02;color:#fff;}
+.OT_preventivo.iOS7Button{padding: 10px; border-radius:25px;}
+.OT_correctivo.iOS7Button{padding: 10px; border-radius:25px;}
+.OT_instalacion.iOS7Button{padding: 10px 30px;border-radius:25px;}
+.OT_preventivo.iOS7ButtonPressed{background-color:#000a57;}
+.OT_correctivo.iOS7ButtonPressed{background-color:#57000a;}
+.OT_instalacion.iOS7ButtonPressed{background-color:#0a5700;}
 .width50{width:50%}
 .iOS7Button, .iOS7ButtonConfirm, .iOS7ButtonDeny, .iOS7ButtonDD { font-size: 13px; }
 </style>
@@ -112,7 +118,7 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -m
 <script>
 	if(typeof jQuery != 'undefined') jQuery.noConflict();
 </script>
-<script type="text/javascript" src="__precomputedUXComponents.js?121159831"></script>
+<script type="text/javascript" src="__precomputedUXComponents.js?94611754"></script>
 <script type="text/javascript" src="_phoneGapSettings.js"></script>
 
 <title></title>
@@ -263,7 +269,7 @@ if(typeof DLG1_DlgObj == 'object') {
 	body: {
 		content: {
 			type: 'html',
-			src: '<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.USER" for="DLG1.V.R1.USER" title="" class="iOS7DialogLabel" style="display:block;">Usuario</label>\n\n\t<input\ttype="text" id="DLG1.V.R1.USER" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.USER"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.PASS" for="DLG1.V.R1.PASS" title="" class="iOS7DialogLabel" style="display:block;">Clave</label>\n\n\t<input\ttype="password" id="DLG1.V.R1.PASS" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.PASS"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 50%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_1"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 50%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_2"    ></button>\n</div><br  style="clear:both; " />\n<div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
+			src: '<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.USER" for="DLG1.V.R1.USER" title="" class="iOS7DialogLabel" style="display:block;">Usuario</label>\n\n\t<input\ttype="text" id="DLG1.V.R1.USER" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.USER"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="" style="width: 100%" >\n\t<label id="DLG1.LBL.R1.PASS" for="DLG1.V.R1.PASS" title="" class="iOS7DialogLabel" style="display:block;">Clave</label>\n\n\t<input\ttype="password" id="DLG1.V.R1.PASS" title=""     class="iOS7Edit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.PASS"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 50%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_1"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 50%" >\n\t<button type="button" id="DLG1.V.R1.BUTTON_2"    ></button>\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<div id="DLG1.V.R1.STATICTEXT_1" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><span style="float:right">v 0.13.1-Dimacofi</span></div>\n</div><br  style="clear:both; " />\n<div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
 		},
 		scroll: {
 			axis: 'both',
@@ -594,7 +600,7 @@ if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_a75dd6de59
 DLG1_DlgObj.lookups = {
 };
 DLG1_DlgObj.setStateInfo({
-	"__dialogGuid": "669e6e11-8027-489e-b0da-888a185c8745",
+	"__dialogGuid": "9c5e5b89-c333-495f-aeb9-6a0d4d7b773a",
 	"argumentsBoundToCotrols": "",
 	"__sgr": "",
 	"__dtfmt": "MM/dd/yyyy",
@@ -619,7 +625,7 @@ DLG1_DlgObj._buttons['BUTTON_1'] = new A5.Button({
 	layout: 'icon text',
 	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
 	className: 'iOS7Button',
-	html: 'Administrador',
+	html: 'Supervisor',
 	icon: 'cssIcon=fa fa-user-plus fa-2x',
 	disabledIcon: 'cssIcon=fa fa-user-plus fa-2x',
 	onClick: function() { 

@@ -49,7 +49,8 @@ function _phoneGapSettings() {
         "cordova-plugin-dialogs": "npm",
         "cordova-plugin-splashscreen": "npm",
         "cordova-plugin-whitelist": "npm",
-        "cordova-plugin-file": "npm"
+        "cordova-plugin-file": "npm",
+        "phonegap-plugin-barcodescanner": "npm"
     }
 };
 }
