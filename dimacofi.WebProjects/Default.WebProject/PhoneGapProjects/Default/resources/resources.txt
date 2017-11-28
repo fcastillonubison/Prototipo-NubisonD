@@ -1,11 +1,11 @@
 {
-	"_id": "2741301",
+	"_id": "",
 	"_icon": "C:\\Users\\Desarrollador\\Documents\\Prototipo Dimacofi\\dimacofi.WebProjects\\Default.WebProject\\img\\isotipo.png",
 	"_ssL": "C:\\Users\\Desarrollador\\Documents\\Prototipo Dimacofi\\dimacofi.WebProjects\\Default.WebProject\\img\\landscapeSplashScreen.png",
 	"_ssP": "C:\\Users\\Desarrollador\\Documents\\Prototipo Dimacofi\\dimacofi.WebProjects\\Default.WebProject\\img\\portraitSplashScreen.png",
 	"_ssA9": "C:\\Users\\Desarrollador\\Documents\\Prototipo Dimacofi\\dimacofi.WebProjects\\Default.WebProject\\img\\9patchSplashScreen.png",
 	"_initialUxComponent": "login",
-	"_componentLastUpdated": "29/08/2017 09:31:20 84 am",
+	"_componentLastUpdated": "24/11/2017 11:27:04 97 am",
 	"_ajaxUrl": "http://nubisonlab.cl:1580/dimacofi",
 	"_additionalFiles": "img\\isotipo.png\nimg\\logo.png\nimg\\noPic.jpg\nnoPic.jpg\nimg\\isotipo.ico\nimg\\t1.jpg\nimg\\t2.jpg\nimg\\t3.jpg\nimg\\t4.jpg",
 	"_userName": "Tva8QUYnrNfjBI9YXra2+XWnzlG7uifS",
@@ -33,5 +33,6 @@
 	"_windowsBuildFlag": false,
 	"launchAppManager": true,
 	"_sqlitedbdefined": false,
-	"cliProjectFolder": ""
+	"cliProjectFolder": "",
+	"_phonegapBuilderVersion": "1"
 }

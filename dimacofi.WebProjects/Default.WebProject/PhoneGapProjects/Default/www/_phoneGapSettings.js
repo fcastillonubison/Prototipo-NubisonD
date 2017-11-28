@@ -17,7 +17,7 @@ function _phoneGapSettings() {
         "disable-cursor": "false",
         "android-minSdkVersion": "14",
         "android-installLocation": "internalOnly",
-        "phonegap-version": "cli-6.5.0",
+        "phonegap-version": "cli-7.0.1",
         "FadeSplashScreen": "true",
         "FadeSplashScreenDuration": "2",
         "EnableViewportScale": "true",
@@ -37,20 +37,21 @@ function _phoneGapSettings() {
         "LoadingPageDialog": "Please wait, the data is loading.",
         "LoadUrlTimeoutValue": "20000",
         "AndroidPersistentFileLocation": "Internal",
-        "android-build-tool": "gradle"
+        "android-build-tool": "gradle",
+        "pgb-builder-version": "1"
     },
     "plugins": {
+        "cordova-plugin-file-transfer": "npm",
         "cordova-plugin-camera": "npm",
         "cordova-plugin-media-capture": "npm",
-        "cordova-plugin-file-transfer": "npm",
+        "cordova-plugin-file": "npm",
         "cordova-plugin-geolocation": "npm",
         "cordova-plugin-media": "npm",
         "cordova-plugin-network-information": "npm",
         "cordova-plugin-dialogs": "npm",
         "cordova-plugin-splashscreen": "npm",
-        "cordova-plugin-whitelist": "npm",
-        "cordova-plugin-file": "npm",
-        "phonegap-plugin-barcodescanner": "npm"
+        "phonegap-plugin-barcodescanner": "npm",
+        "cordova-plugin-whitelist": "npm"
     }
 };
 }

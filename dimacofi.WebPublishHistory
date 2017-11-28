@@ -6333,4 +6333,84 @@
 <target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_11484\temphttp___nubisonlab_cl___1580\dimacofi">
 <timestamp=CTODT('29/08/2017 12:54:59 36 pm')>
 >
+<[1268]<type="folder">
+<name="ExeReportStyles">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:08 25 am')>
+>
+<[1269]<type="folder">
+<name="AppDataReportStyles">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:08 35 am')>
+>
+<[1270]<type="folder">
+<name="ExeChartStyles">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:08 56 am')>
+>
+<[1271]<type="folder">
+<name="AppDataChartStyles">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:08 59 am')>
+>
+<[1272]<type="WebComponent">
+<name="{c:\users\desarrollador\documents\prototipo dimacofi\dimacofi.webprojects\default.webproject\admin.a5wcmp}">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:09 06 am')>
+>
+<[1273]<type="WebComponent">
+<name="{c:\users\desarrollador\documents\prototipo dimacofi\dimacofi.webprojects\default.webproject\login.a5wcmp}">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:09 11 am')>
+>
+<[1274]<type="WebComponent">
+<name="{c:\users\desarrollador\documents\prototipo dimacofi\dimacofi.webprojects\default.webproject\tec.a5wcmp}">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:09 56 am')>
+>
+<[1275]<type="css">
+<name="a5system">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:10 45 am')>
+>
+<[1276]<type="css">
+<name="ios7">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:10 74 am')>
+>
+<[1277]<type="cssIcon">
+<name="font-awesome">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:11 04 am')>
+>
+<[1278]<type="file">
+<name="{c:\users\desarrollador\documents\prototipo dimacofi\dimacofi.webprojects\default.webproject\project.securitysettings}">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:11 05 am')>
+>
+<[1279]<type="file">
+<name="{c:\users\desarrollador\documents\prototipo dimacofi\dimacofi.webprojects\default.webproject\img\t1.jpg}">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:11 11 am')>
+>
+<[1280]<type="file">
+<name="{c:\users\desarrollador\documents\prototipo dimacofi\dimacofi.webprojects\default.webproject\img\t2.jpg}">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:11 14 am')>
+>
+<[1281]<type="file">
+<name="{c:\users\desarrollador\documents\prototipo dimacofi\dimacofi.webprojects\default.webproject\img\t3.jpg}">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:11 16 am')>
+>
+<[1282]<type="file">
+<name="{c:\users\desarrollador\documents\prototipo dimacofi\dimacofi.webprojects\default.webproject\img\t4.jpg}">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:11 17 am')>
+>
+<[1283]<type="file">
+<name="{c:\users\desarrollador\documents\prototipo dimacofi\dimacofi.webprojects\default.webproject\logo.png}">
+<target_folder="c:\users\desarrollador\appdata\local\temp\alphaanywhere\p_10364\temphttp___nubisonlab_cl___1580\dimacofi">
+<timestamp=CTODT('24/11/2017 11:27:11 18 am')>
+>
 >
